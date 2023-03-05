@@ -1,0 +1,165 @@
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+  /* hero section */
+  .hero-content {
+    padding: 30px 20px;
+  }
+  .common-title {
+    padding-bottom: 0 !important;
+  }
+   .common-title h2 {
+    font-size: 25px;
+  }
+  .common-title p {
+    padding-top: 5px;
+  }
+  .more-button{
+    padding-top: 1rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .hero-skills {
+    padding: 40px;
+  }
+  .hero-skills button.owl-prev {
+    height: 30px;
+    width: 30px;
+    line-height: 30px !important;
+    font-size: 22px !important;
+    left: -10%;
+  }
+  .hero-skills button.owl-next {
+    height: 30px;
+    width: 30px;
+    line-height: 30px !important;
+    font-size: 22px !important;
+    right: -11%;
+  }
+  .hero_area .col-xs-6 {
+    width: 50%;
+  }
+  /* skill section */
+  .skills_area .col-xs-2 {
+    width: 20%;
+  }
+  .skills_area .col-xs-10 {
+    width: 80%;
+  }
+   /* offer section */
+ .desktop-device {
+  display: none;
+ }
+ 
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+   /* hero section */
+   .hero-content {
+    padding: 30px 20px;
+  }
+  .common-title {
+    padding-bottom: 0 !important;
+  }
+   .common-title h2 {
+    font-size: 25px;
+  }
+  .common-title p {
+    padding-top: 5px;
+  }
+  .more-button{
+    padding-top: 1rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .hero-skills {
+    padding: 40px;
+  }
+  .hero-skills button.owl-prev {
+    height: 30px;
+    width: 30px;
+    line-height: 30px !important;
+    font-size: 22px !important;
+    left: -10%;
+  }
+  .hero-skills button.owl-next {
+    height: 30px;
+    width: 30px;
+    line-height: 30px !important;
+    font-size: 22px !important;
+    right: -11%;
+  }
+
+  /* offer section */
+ .desktop-device {
+  display: none;
+ }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+     /* hero section  */
+     .common-title h2 {
+        font-size: 35px;
+      }
+      .common-title p {
+        padding-top: 15px;
+        margin-bottom: 0;
+      }
+    .hero-items {
+        padding: 0 20px;
+      }
+      .owl-nav {
+        display: none;
+      }
+      .more-button.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 0rem !important;
+      }
+      .hero-skills {
+        padding-top: 70px;
+        padding-bottom: 0;
+      }
+
+      /* offer section */
+      .offer_area .card-title {
+        font-size: 18px;
+      }
+      .offer_area .card-body {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+      .offer_area .card p {
+        font-size: 14px;
+        padding-top: 10px;
+      }
+
+      .small-device {
+        display: none;
+       }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    /* hero section */
+    .hero-skills button.owl-prev {
+       left: -6%;
+    }
+    .hero-skills button.owl-next {
+        right: -7%;
+      }
+
+      .small-device {
+        display: none;
+       }
+     
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   .small-device {
+    display: none;
+   }
+ }

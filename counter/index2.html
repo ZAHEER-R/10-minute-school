@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+  
+    <!-- main css -->
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+</head>
+<body>
+ 
+<span class="counter">300</span>
+<span>$</span><span class="counter">199</span>
+<span class="counter">12345</span>
+
+
+<!-- jquery js -->
+<script src=""></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="./assets/js/jquery.counterup.min.js"></script>
+
+<script>
+  jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+  });
+</script>
+</body>
+</html>

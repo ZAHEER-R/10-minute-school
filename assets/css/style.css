@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: #F4F7FD;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* HEADER SECTION */
+.header .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d2;
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-item {
+    padding: .5rem 1rem;
+}
+.header .nav-link:hover {
+    color: red;
+    opacity: 1 !important;
+}
+.header .nav-link.active {
+    color: #af0404e6;
+}
+
+.nav-icon {
+  color: green;
+}
+.nav-icon:hover {
+    color: green !important;
+}
+.nav-icon i {
+    margin-right: 8px;
+}
+
+/* hero section */
+.hero_area {
+    margin-top: 100px;
+}
+.hero-content {
+    background-color: #000;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+.common-title h2 {
+    font-size: 44px;
+    color: #fff;
+}
+.common-title p {
+    color: #fff;
+}
+.hero-items .card {
+    padding: 18px 0;
+}
+.hero-items .card-title {
+    font-size: 1.125rem;
+}
+.hero-items .card-text {
+    font-size: .8rem;
+}
+.hero-items .card-body i {
+    color: #d1d1d2;
+}
+.hero-items .card:hover {
+    border: 1px solid green;
+}
+
+.hero-items .card:hover i {
+    color: green;
+}
+
+.hero-skills {
+    padding: 80px;
+}
+.hero-skills .item img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.hero-skills button.owl-prev {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    line-height: 34px !important;
+    border-radius: 50% !important;
+    color: #000 !important;
+    background-color: #fff !IMPORTANT;
+    font-size: 30px !important;
+    left: -5%;
+    top: 44%;
+    opacity: .5;
+    transform: translate(-5%, -50%);
+}
+.hero-skills button.owl-next {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    line-height: 34px !important;
+    border-radius: 50% !important;
+    color: #000 !important;
+    background-color: #fff !IMPORTANT;
+    font-size: 30px !important;
+    right: -5%;
+    top: 45%;
+    opacity: .5;
+    transform: translate(-5%, -50%);
+}
+.hero-skills .owl-theme .owl-dots .owl-dot.active span {
+    background: #33c443;
+}
+
+/* skill section */
+.skills_area {
+    padding: 50px 0;
+}
+.common-title h2 {
+    color: #000;
+}
+
+.common-title p {
+    color: rgb(75, 85, 99);
+    padding-top: 20px;
+}
+.skill-items .card:hover {
+    background-color: #f1f1f3;
+    border: 1px solid green;
+}
+
+/* skill section */
+.offer_area .card img{
+   width: 50px;
+   height: 50px;
+}
+
+.offer_area .card p {
+    font-size: 15px;
+    color: rgb(75, 85, 99);
+    padding-top: 20px;
+}
+
+.offer-content h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #F57969;
+    padding-bottom: 20px;
+}
+.offer-content h3 i {
+    padding-right: 10px;
+}
+.offer_area .card:hover {
+    background-color: #f1f1f3;
+    border: 1px solid green;
+}
+
+/* course section */
+.course_area {
+    padding: 50px 0;
+}
+.course_area .course-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.course_area .course-item .sub-title {
+    color: green;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* download area */
+.download-content {
+    background-color: #170E28;
+    border-radius: 10px;
+    padding: 50px;
+}
+.download-content .title {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* counter section */
+.counter-area {
+    padding: 50px 0;
+}
+.counter-itme .card {
+    padding: 30px 20px;
+    margin-top: 20px;
+    border: 0;
+}
+.counter-itme .card-one {
+    background-color: #E3FDF2;
+}
+.counter-itme .card-two {
+    background-color: #F9F7E6;
+}
+.counter-itme .card-three {
+    background-color: #FFF2F2;
+}
+.counter-itme .card-four {
+    background-color: #EAE9F8;
+}
+.counter-itme .counter {
+    font-size: 40px !important;
+    font-weight: bold;
+}
+.counter-itme h4 {
+    font-size: 20px;
+}
+
+/* footer section */
+.footer-content {
+    padding: 30px 0;
+    border-top: 1px solid rgb(187, 184, 184);
+}
+.footer-item p {
+    padding: 10px 0;
+}
+.footer-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-item ul li {
+    padding: 7px 0;
+}
+.footer-item ul li a {
+    color: #6e6d6d;
+    text-decoration: none;
+    padding: 20px 0;
+}
+.footer-item ul li a:hover {
+    color: green;
+}
+.footer-icon li {
+    display: inline-block;
+}
+.footer-icon li i {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
